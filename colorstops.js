@@ -52,6 +52,8 @@ class ColorStops {
     let ratio = first === last ? 1 :
       (value - first.value) / (last.value - first.value);
 
+    ratio = Math.min(Math.max(ratio, 0), 1);
+
     return tinycolor.mix(first.color, last.color, ratio * 100);
   }
 
