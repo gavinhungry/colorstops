@@ -17,6 +17,14 @@
   },
 
   "main": "colorstops.js",
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
+
+  "devDependencies": {
+    "tape": "4.9.x",
+    "tap-spec": "5.0.x"
+  },
 
   "dependencies": {
     "tinycolor2": "1.4.x"

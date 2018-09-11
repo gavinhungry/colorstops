@@ -44,6 +44,13 @@ colorStops.hex(79);   // '#0006F9'
 colorStops.hex(200);  // '#0000FF'
 ```
 
+Tests
+-----
+
+```sh
+$ npm run test
+```
+
 License
 -------
 This software is released under the terms of the **MIT license**. See `LICENSE`.
