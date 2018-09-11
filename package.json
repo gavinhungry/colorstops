@@ -1,0 +1,24 @@
+{
+  "name": "colorstops",
+  "version": "0.0.0",
+  "author": "Gavin Lloyd <gavinhungry@gmail.com>",
+  "description": "Mix colors against multiple color stops",
+  "license": "MIT",
+
+  "keywords": [
+    "color",
+    "colors"
+  ],
+
+  "homepage": "https://github.com/gavinhungry/colorstops",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gavinhungry/colorstops.git"
+  },
+
+  "main": "colorstops.js",
+
+  "dependencies": {
+    "tinycolor2": "1.4.x"
+  }
+}
