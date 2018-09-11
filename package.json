@@ -1,6 +1,6 @@
 {
   "name": "colorstops",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Gavin Lloyd <gavinhungry@gmail.com>",
   "description": "Mix colors against multiple color stops",
   "license": "MIT",
