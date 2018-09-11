@@ -20,7 +20,7 @@ class ColorStops {
    * @param {Array.<Object>} stops
    * @return {AutoWorker}
    */
-  constructor(stops) {
+  constructor(stops = []) {
     this._stops = stops.sort((a, b) => a.value - b.value);
   }
 
